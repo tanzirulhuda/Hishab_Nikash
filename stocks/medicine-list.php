@@ -109,7 +109,7 @@
               <!-- /.card-header -->
               <div class="card-body">
                 <table id="medicine-list" class="table table-bordered table-striped">
-                  <thead class="bg-gradient-primary text-center">
+                  <thead class="bg-gradient-primary text-center text-small">
                   <tr>
                     <th>SL</th>
                     <th>Date</th>

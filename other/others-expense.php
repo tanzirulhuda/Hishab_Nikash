@@ -1,7 +1,7 @@
 <?php
  include_once('../components/header.php');
- $mainPage = 'sales';
- $subPage = 'sales-list';
+ $mainPage = 'others';
+ $subPage = 'others-expense';
 ?>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -79,12 +79,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Sales List</h1>
+            <h1 class="m-0">Others Expense List</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
-              <li class="breadcrumb-item">Sales list</li>
+              <li class="breadcrumb-item">Others Expense List</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -98,13 +98,43 @@
         <div class="row">
           <div class="col-lg-12">
           <div class="card">
-              <div class="card-header bg-gradient-primary">
+              <div class="card-header">
                 <div class="pt-2">
-                    <h3 class="card-title">Sales List</h3>
+                    <h3 class="card-title">Expense List</h3>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <a href="./add-sales.php" class="btn btn-small btn-default"><i class="fas fa-plus-circle"></i></a>
+                    <button data-toggle="modal" data-target="#addnew" class="btn btn-small btn-default"><i class="fas fa-plus-circle"></i></button>
                 </div>
+                <div class="modal fade" id="addnew">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Add new expense</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="expenses_head">Expenses Head</label>
+                                        <input type="text" class="form-control" id="expenses_head" placeholder="Expenses Head">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">Date</label>
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="total_amount">Total Amount</label>
+                                        <input type="text" class="form-control" id="total_amount" placeholder="0.00">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-sm d-flex justify-content-end">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal -->
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -112,34 +142,57 @@
                   <thead class="bg-gradient-primary text-center text-small">
                   <tr>
                     <th>SL</th>
-                    <th>Customer name</th>
-                    <th>Invoice number</th>
+                    <th>Expenses Head</th>
                     <th>Date</th>
                     <th>Total amount</th>
-                    <th>Cash recieved</th>
-                    <th>Due</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Kalam</td>
-                    <td>16348773921</td>
+                    <td>Snacks</td>
                     <td>31/10/2021</td>
-                    <td>1200</td>
-                    <td>800</td>
-                    <td>400</td>
+                    <td class="text-right">100</td>
                     <td style="width: 100px; border: none;">
                         <div class="btn-group">
                             <a class="btn btn-flat bg-gradient-danger" href=""><i class="fas fa-trash-alt"></i></a>
-                            <a class="btn btn-flat bg-gradient-success" href=""><i class="fas fa-pencil-alt"></i></a>
-                            <a class="btn btn-flat bg-gradient-warning" href=""><i class="fas fa-print"></i></a>
+                            <a data-toggle="modal" data-target="#edit" class="btn btn-flat bg-gradient-success" href=""><i class="fas fa-pencil-alt"></i></a>
                         </div>
                     </td>
                   </tr>
                   </tbody>
                 </table>
+                <div class="modal fade" id="edit">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Edit Income</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="expenses_head">Expenses Head</label>
+                                        <input type="text" class="form-control" id="expenses_head" placeholder="Expenses Head">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">Date</label>
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="total_amount">Total Amount</label>
+                                        <input type="text" class="form-control" id="total_amount" placeholder="0.00">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-sm d-flex justify-content-end">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal -->
               </div>
               <!-- /.card-body -->
             </div>

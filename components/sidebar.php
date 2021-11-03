@@ -155,6 +155,29 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item<?php if ($mainPage == 'others') {echo ' menu-open';} ?>">
+            <a href="#" class="nav-link<?php if ($mainPage == 'others') {echo ' active';} ?>">
+            <i class="fas fa-file-invoice-dollar nav-icon"></i>
+              <p>
+                Others
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../other/others-income.php" class="nav-link<?php if ($subPage == 'others-income') {echo ' active';} ?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Others Income</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../other/others-expense.php" class="nav-link<?php if ($subPage == 'others-expense') {echo ' active';} ?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Others Expense</p>
+                </a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item<?php if ($mainPage == 'hr-management') {echo ' menu-open';} ?>">
             <a href="#" class="nav-link<?php if ($mainPage == 'hr-management') {echo ' active';} ?>">
             <i class="fas fa-tasks nav-icon"></i>

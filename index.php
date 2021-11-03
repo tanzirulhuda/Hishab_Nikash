@@ -240,6 +240,29 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
+            <i class="fas fa-file-invoice-dollar nav-icon"></i>
+              <p>
+                Others
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./other/others-income.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Others Income</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./other/others-expense.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Others Expense</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
             <i class="fas fa-tasks nav-icon"></i>
               <p>
                 HR Management
