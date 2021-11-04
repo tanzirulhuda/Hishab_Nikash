@@ -79,12 +79,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Add Medicine</h1>
+            <h1 class="m-0">Add Sales</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
-              <li class="breadcrumb-item">Add Medicine</li>
+              <li class="breadcrumb-item">Add Sales</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -98,7 +98,7 @@
         <div class="card">
             <div class="card-header bg-gradient-primary">
                 <div class="pt-2">
-                    <h3 class="card-title">Add Medicine</h3>
+                    <h3 class="card-title">Add Sales</h3>
                 </div>
             </div>
             <div class="card-body">
@@ -147,7 +147,7 @@
                                 </td>
                                 <td class="text-center" ><input type="text" name="quantity" class="form-control" id="quantity" value="2"></td>
                                 <td class="text-center" ><input type="text" name="sale_price" class="form-control" id="sale_price" value="20.00"></td>
-                                <td class="text-center" ><input type="text" name="cost_price" class="form-control" id="cost_price" value="18.00" readonly></td>
+                                <td class="text-center" ><input style="display: none;" type="text" name="cost_price" class="form-control" id="cost_price" value="18.00" readonly><i style="display: none;" id="hide_cost" class="fas fa-eye-slash"></i><i style="font-size: 24px;" id="show_cost" class="fas fa-eye mt-2"></i></td>
                                 <td class="text-center" ><input type="text" name="sub_total" class="form-control" id="sub_total" value="36.00" readonly></td>
                                 <td class="text-center" ><input type="text" name="stock" class="form-control" id="stock" value="2" readonly></td>
                                 <td><button class="btn btn-small btn-danger btn-flat"><i class="fas fa-times"></i></button></td>

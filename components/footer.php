@@ -185,5 +185,20 @@ $('.date-picker').on('apply.daterangepicker', function(ev, picker) {
   drp.setEndDate(departpicker);
 });
 </script>
+<!-- Custom Script -->
+<script>
+  $(function(){
+    $("#show_cost").on('click', function(){
+      $("#cost_price").css("display","block");
+      $("#show_cost").css("display", "none");
+      $("#hide_cost").css("display","block");
+    });
+    $("#hide_cost").on("click", function(){
+      $("#cost_price").css("display","none");
+      $("#show_cost").css("display", "block");
+      $("#hide_cost").css("display","none");
+    });
+  });
+</script>
 </body>
 </html>
