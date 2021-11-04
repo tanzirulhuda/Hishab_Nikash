@@ -147,6 +147,7 @@
                   <tr>
                     <th>SL</th>
                     <th>Employee Name</th>
+                    <th>Designation</th>
                     <th>Date</th>
                     <th>Salary Amount</th>
                     <th>Remarks</th>
@@ -157,6 +158,7 @@
                   <tr>
                     <td>1</td>
                     <td>Kalam</td>
+                    <td>Ward boy</td>
                     <td>01/11/2021</td>
                     <td>8000</td>
                     <td>N\A</td>

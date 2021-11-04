@@ -128,9 +128,9 @@
                       <label for="designation">Designation</label>
                       <select class="form-control select2" style="width: 100%;">
                         <option selected="selected">Doctor</option>
-                        <option>Word Boy</option>
+                        <option>Ward Boy</option>
                         <option>Genarel Manager</option>
-                        <option>Word Girl</option>
+                        <option>Ward Girl</option>
                         <option>Front Desk Officer</option>
                         <option>Accounts Officer</option>
                       </select>

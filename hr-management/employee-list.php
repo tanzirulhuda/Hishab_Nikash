@@ -126,7 +126,7 @@
                   <tr>
                     <td>1</td>
                     <td>Kalam</td>
-                    <td>Word boy</td>
+                    <td>Ward boy</td>
                     <td>Khulna</td>
                     <td>017#######</td>
                     <td>31/10/2021</td>

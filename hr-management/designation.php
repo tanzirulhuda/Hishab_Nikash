@@ -149,7 +149,7 @@
                   <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Word Boy</td>
+                    <td>Ward Boy</td>
                     <td><span class="label bg-gradient-success p-2">Active</span></td>
                     <td class="text-center" style="width: 120px; border: none;">
                         <div class="btn-group">
