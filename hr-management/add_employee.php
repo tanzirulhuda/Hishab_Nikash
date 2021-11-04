@@ -169,7 +169,8 @@
                   </div>
                   <div class="form-group col-3">
                       <label for="joining_date">Joining Date</label>
-                      <input type="date" class="form-control" id="joining_date" placeholder="Joining Date">
+                      <!-- <input type="date" class="form-control" id="joining_date" placeholder="Joining Date"> -->
+                      <input type="text" placeholder="Date" name="daterange" class="form-control date-picker" id="date-picker" />
                   </div>
                   <div class="form-group col-3">
                       <label for="payment_method">Status</label>

@@ -96,13 +96,13 @@
         <!-- Main content -->
     <div class="content card">
       <div class="container-fluid">
-        <div class="date-picker text-center mb-4 mt-3">
+        <div class="text-center mb-4 mt-3">
             <form>
                 <button class="btn btn-flat bg-gradient-info">Yesterday</button>
                 <button class="btn btn-flat bg-gradient-info">Last 3 days</button>
                 <button class="btn btn-flat bg-gradient-info">Last 7 days</button>
                 <button class="btn btn-flat bg-gradient-info">Last Month</button>
-                <div class="ui calendar d-inline btn btn-flat" id="date-picker">
+                <div class="ui calendar d-inline btn btn-flat" id="datePicker">
                     <div style="border-radius: 0;border-width: 1px;box-shadow: none;background: #17a2b8 linear-gradient(180deg, #3ab0c3, #17a2b8) repeat-x !important;color: #fff;padding: 0.7rem 0.7em;margin-left: -11px;" class="ui button">Select date</div>
                 </div>
                 <input id="date_container" type="hidden" value="3">

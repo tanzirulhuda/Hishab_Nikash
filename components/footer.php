@@ -119,7 +119,7 @@
 <!-- Semantic UI Script -->
 <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
 <script>
-  $("#date-picker").calendar({
+  $("#datePicker").calendar({
     type: "date",
     onChange: function (date, text) {
       var newValue = text;

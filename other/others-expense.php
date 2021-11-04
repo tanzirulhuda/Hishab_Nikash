@@ -122,7 +122,8 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="date">Date</label>
-                                        <input type="date" class="form-control" id="date">
+                                        <!-- <input type="date" class="form-control" id="date"> -->
+                                        <input type="text" placeholder="Date" name="daterange" class="form-control date-picker" id="date-picker" />
                                     </div>
                                     <div class="form-group">
                                         <label for="total_amount">Total Amount</label>
@@ -180,7 +181,8 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="date">Date</label>
-                                        <input type="date" class="form-control" id="date">
+                                        <!-- <input type="date" class="form-control" id="date"> -->
+                                        <input type="text" placeholder="Date" name="daterange" class="form-control date-picker" id="date-picker" />
                                     </div>
                                     <div class="form-group">
                                         <label for="total_amount">Total Amount</label>

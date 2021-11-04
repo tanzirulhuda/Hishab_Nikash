@@ -164,7 +164,8 @@
                       <div class="col-lg-3">
                             <div class="form-group col-12">
                                 <label for="date">Date</label>
-                                <input type="date" class="form-control" id="date">
+                                <!-- <input type="date" class="form-control" id="date"> -->
+                                <input type="text" placeholder="Date" name="daterange" class="form-control date-picker" id="date-picker" />
                             </div>
                             <div class="form-group col-12">
                                 <label for="discount">Discount</label>
@@ -189,10 +190,10 @@
                             <div class="form-group col-12">
                                 <label for="payment_method">Payment method</label>
                                 <select class="form-control">
-                                <option>Cash in Hand</option>
+                                <option>Cash</option>
                                 <option>Card paid</option>
-                                <option>Bkash</option>
-                                <option>Rocket</option>
+                                <option>Mobile Wallet</option>
+                                <option>Cheque</option>
                                 </select>
                             </div>
                       </div>
